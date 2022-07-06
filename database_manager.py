@@ -13,7 +13,7 @@ def store_passwords(password, user_email, username, url, app_name):
 
 def connect():
     try:
-        connection = psycopg2.connect(user='kalle', password='kalle', host='127.0.0.1', database='password_manager')
+        connection = psycopg2.connect(user='....', password='...', host='127.0.0.1', database='password_manager')
         return connection
     except (Exception, psycopg2.Error) as error:
         print(error)
